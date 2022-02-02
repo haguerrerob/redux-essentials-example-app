@@ -8,7 +8,7 @@ import { setRandom } from 'txtgen'
 
 import { parseISO } from 'date-fns'
 
-const NUM_USERS = 3
+const NUM_USERS = 5
 const POSTS_PER_USER = 3
 const RECENT_NOTIFICATIONS_DAYS = 7
 
