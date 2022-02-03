@@ -11,6 +11,7 @@ import { AddPostForm } from './features/posts/AddPostForm'
 import {PostsList} from './features/posts/PostsList'
 import { SinglePostPage } from './features/posts/SinglePostPage'
 import { EditPostForm } from './features/posts/EditPostForm'
+// import { UsersList } from './features/users/UsersList'
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" render={() => (
-              <React.Fragment>
+            <React.Fragment>
                 <AddPostForm />
                 <PostsList />
               </React.Fragment>
